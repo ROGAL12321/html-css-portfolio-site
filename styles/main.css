@@ -7,12 +7,14 @@ body {
 .header {
   background: #87509c;
   padding: 0 20px;
+  height: 55px;
 }
 
 .header h1 {
   display: inline-block;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 20px;
+  line-height: 55px;
 }
 
 .navigation {
@@ -22,7 +24,6 @@ body {
 
 .navigation-list li{
   display: inline-block;
-
   padding-right: 40px;
 }
 
@@ -45,10 +46,10 @@ body {
   color: white;
   font-size: 42px;
   text-align: center;
+  line-height: 1.2;
   max-width: 900px;
   margin: 0 auto;
   padding: 100px 0;
-  line-height: 1.2;
 }
 
 /* ABOUT */
@@ -60,9 +61,9 @@ body {
 }
 
 .about-header {
-  text-align: center;
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
   color: white;
   letter-spacing: 0.1;
   padding: 40px 0;
@@ -90,7 +91,7 @@ body {
 
 .about-box p {
   padding: 20px;
-  font-weight: 300;
+  font-weight: light;
   color: white;
 }
 
@@ -106,8 +107,8 @@ body {
   color: #393939;
   font-size: 40px;
   text-align: center;
-  padding: 20px;
   font-weight: bold;
+  padding: 20px;
 }
 
 .portfolio-paragraph {
@@ -115,7 +116,6 @@ body {
   text-align: center;
   max-width: 600px;
   margin: 20px auto;
-  margin-bottom: 20px;
 }
 
 .portfolio-box {
@@ -124,12 +124,12 @@ body {
   display: inline-block;
 }
 
-.portfolio-box img {
+.portfolio-boximage {
   width: 100%;
   max-width: 300px;
 }
 
-.portfolio-box p {
+.portfolio-boxtext {
   margin-top: 20px;
   font-weight: bold;
 }
@@ -139,7 +139,7 @@ body {
 
 .contact-section {
   background: #3c5499;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .contact-header {
@@ -157,11 +157,11 @@ body {
   margin: 20px auto;
 }
 
-.contact-section ul {
+.contact-list {
   margin-top: 20px;
 }
 
-.contact-section li {
+.contact-listitem {
   color: white;
   font-size: 18px;
   text-align: center;
